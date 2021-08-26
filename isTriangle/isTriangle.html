@@ -1,12 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <script src="isTriangle.js" defer></script>
+    <link rel="stylesheet" href="../style.css">
+    <title>Is it a Triangle?</title>
 </head>
+
 <body>
-    
+    <nav>
+        Is Triangle
+    </nav>
+    <div class="outer-cont">
+        <a href="../index.html" class="backbtn">Back</a>
+        <label for="angle1">angle1</label>
+        <input type="number" min="1" max="180" name="angle1" class="angleInput">
+        <label for="angle2">angle2</label>
+        <input type="number" name="angle2" class="angleInput">
+        <label for="angle3">angle3</label>
+        <input type="number" name="angle3" class="angleInput">
+        <button id="check-trinagle">Is Trinagle</button>
+        <div id="angle-result"></div>
+    </div>
+
 </body>
+
 </html>

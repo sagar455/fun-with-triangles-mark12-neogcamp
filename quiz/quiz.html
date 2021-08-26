@@ -1,12 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <script src="quiz.js" defer></script>
+    <link rel="stylesheet" href="../style.css">
+    <title>Quiz</title>
 </head>
+
 <body>
-    
+    <nav>Quiz on Triangles</nav>
+    <div class="outer-cont">
+        <a href="../index.html" class="backbtn">Back</a>
+
+        <form class="form">
+            <div class="question-container">
+                <h3>How many sides does a triangle have?</h3>
+                <div class="row-space">
+
+                    <label for="q1o1"><input id="q1o1" type="radio" name="firstquestion" value="1">1</label>
+                    <label for="q1o2"><input id="q1o2" type="radio" name="firstquestion" value="2">2</label>
+                    <label for="q1o3"><input id="q1o3" type="radio" name="firstquestion" value="3">3</label>
+                </div>
+            </div>
+
+            <div>
+                <h3>Sum of angles of a triangle?</h3>
+                <div class="row-space">
+                    <label for="q2o1"><input id="q2o1" type="radio" name="secondquestion" value="100">100</label>
+                    <label for="q2o2"><input id="q2o2" type="radio" name="secondquestion" value="200">200</label>
+                    <label for="q2o3"><input id="q2o3" type="radio" name="secondquestion" value="180">180</label>
+                </div>
+
+            </div>
+
+            <div>
+                <h3>Triangle with two sides equal?</h3>
+                <div class="row-space">
+                    <label for="q3o1"><input id="q3o1" type="radio" name="thirdquestion" value="scalene">scalene</label>
+                    <label for="q3o2"><input id="q3o2" type="radio" name="thirdquestion" value="equilateral">equilateral</label>
+                    <label for="q3o3"><input id="q3o3" type="radio" name="thirdquestion" value="isoceles">isoceles</label>
+
+                </div>
+            </div>
+
+            <div>
+                <h3>If sum of two angles of a triangle is 20 and 30 , then third angle is?</h3>
+                <div class="row-space">
+                    <label for="q4o1"><input id="q4o1" type="radio" name="fourthquestion" value="130">130</label>
+                    <label for="q4o2"><input id="q4o2" type="radio" name="fourthquestion" value="120">120</label>
+                    <label for="q4o3"><input id="q4o3" type="radio" name="fourthquestion" value="300">300</label>
+
+                </div>
+            </div>
+        </form>
+        <button id="submit-btn" class="button">Check Score</button>
+
+        <div class="output"></div>
+    </div>
+
 </body>
+
 </html>
